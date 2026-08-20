@@ -1,0 +1,22 @@
+{
+  "manifest_version": "submission_manifest.v1",
+  "repo_layout_rules": {
+    "manifest_path": "submission_manifest.json",
+    "readme_path": "README.md",
+    "artifacts_dir": "artifacts",
+    "artifact_extension": ".zip"
+  },
+  "artifacts": [
+    {
+      "family_id": "cf_swarm_sar",
+      "interface_version": "submission_zip.v1",
+      "artifact_path": "artifacts/cf_swarm_sar/submission.zip",
+      "sha256": "d195609c50552a398ad776c256f2429bb233cfc252c040b90d07c45681c76356",
+      "size_bytes": 3570936,
+      "metadata": {
+        "packaged_with": "swarm_cli",
+        "source_dir_name": "final_model"
+      }
+    }
+  ]
+}
